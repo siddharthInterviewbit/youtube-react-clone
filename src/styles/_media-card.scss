@@ -1,0 +1,42 @@
+.media-card {
+  position: relative;
+  cursor: pointer;
+  transition: 360ms;
+
+  &__poster {
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+  }
+
+  &__image {
+    display: flex;
+  }
+
+  &__desc {
+    margin-left: 1rem;
+  }
+
+  &__cover {
+    display: flex;
+    padding: 1rem 1.5rem 1.5rem 0;
+    width: 100%;
+    color: white;
+    transition: 360ms;
+  }
+
+  &__name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  &__description {
+    font-size: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

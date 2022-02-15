@@ -1,0 +1,23 @@
+.media-slider {
+  color: white;
+  padding-top: 70px;
+  padding-left: 5.5rem;
+
+  &__title {
+    margin-top: 0;
+    padding: 0 2rem;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1rem;
+
+    padding: 20px 50px;
+
+    &::-webkit-scrollbar {
+      // Hides scrollbar in horizontal slider
+      display: none;
+    }
+  }
+}

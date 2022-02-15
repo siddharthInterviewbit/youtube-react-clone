@@ -1,0 +1,99 @@
+
+//hp -- home page
+.hp-header-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background: #202020;
+
+    .hp-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hp-header-left{
+      padding: 1rem;
+       img{
+          height: 6rem;
+          margin-left: 1rem;
+        }
+    }
+
+
+  .hp-header-middle{
+    width: 50%;
+    @media (max-width: 685px){
+      justify-content: flex-end;
+    }
+
+    .hp-header-control{
+      flex: 1;
+      background:#121212;
+      border: 0.3px solid  #303030;
+      height: 2.5rem;
+      margin-right: 0.7rem; 
+      @media (max-width: 685px){
+        flex: 0;
+        border: 0px;
+      }
+      
+
+      .ctrl-input{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 685px){
+          display: none;
+          flex: 0;
+        }
+
+        input{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
+          height: 100%;
+          outline: none;
+          border: none;
+          background:#121212;
+          caret-color: #ffffff;
+          color: #ffffff;
+          margin-left: 0.5rem; 
+          font-size: 1rem;
+        
+        }
+        .clear-input-button{
+           padding-top: 0.2rem;
+           padding-right: 0.6rem;
+           background:#121212;
+           height: 100%;
+        }
+      }
+       button{
+         background: #303030 ;
+         height: 100%;
+         outline: none;
+         border: none;
+         padding-left: 1rem;
+         padding-right: 1rem;
+
+         @media (max-width: 685px){
+          background: #202020;
+        }
+       }
+    }
+  }
+  .hp-header-right > .r-icon{
+     margin: auto 0.7rem;
+  }
+}
+

@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    align-items: center;
+    padding-left: 1.7rem;
+      p{
+        margin-left: 2rem;
+      } 
+  }
+  
+  .list:hover{
+    z-index: 109;
+    background: #ffffff;
+  }
