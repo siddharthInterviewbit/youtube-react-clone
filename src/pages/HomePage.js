@@ -1,12 +1,9 @@
 import React from 'react';
-
-
-
+import Header from 'ui/Header.js'
 function HomeScreen() {
-
   return (
     <div>
-      hello
+      <Header/>
     </div>
   );
 }
