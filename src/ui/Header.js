@@ -11,7 +11,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Avatar } from "@mui/material";
 
 
-const Header = () => {
+const Header = (props) => {
   const iconColor = {
     color: "white",
     cursor: "pointer"
@@ -26,6 +26,9 @@ const Header = () => {
       <div className="hp-header-left hp-header">
         <MenuIcon 
           style={iconColor}
+          onClick={() => {
+            props.onClickMenu();
+          }}
         />
         <img className="header__logo" src={yt_logo} alt="youtube" />
       </div>
