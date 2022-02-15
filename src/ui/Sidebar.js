@@ -1,7 +1,10 @@
 import PrimarySidebar from "./PrimarySidebar";
-import SecondarySideBar from "./SecondarySidebar";
+import SecondarySidebar from "./SecondarySidebar";
 
-const Sidebar = ({ toggleSidebar }) => {
-  return toggleSidebar ? <PrimarySidebar /> : <SecondarySideBar />;
+const Sidebar = ({toggleSidebar}) => {
+  console.log(toggleSidebar);
+  return (
+    toggleSidebar ? <PrimarySidebar /> : <SecondarySidebar/>
+  );
 };
 export default Sidebar;
