@@ -1,5 +1,5 @@
 # Youtube clone with githu
-To run the project on master branch
+To run the project on search branch
 ### 1. Clone this project
 `git clone https://github.com/siddharthInterviewbit/youtube-react-clone.git`
 
