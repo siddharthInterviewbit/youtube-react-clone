@@ -1,6 +1,6 @@
 # Youtube clone
 
-To run the project new
+To run the project hey
 ### 1. Clone this project
 `git clone https://github.com/siddharthInterviewbit/youtube-react-clone.git`
 
